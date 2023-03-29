@@ -1,0 +1,14 @@
+version: '3.5'
+
+services:
+  corsanywhere:
+    container_name: corsanywhere
+    image: testcab/cors-anywhere
+    restart: always
+    environment:
+      PORT: "3333"
+    ports:
+      - 3333:3333
+    
+      
+   
